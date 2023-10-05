@@ -25,11 +25,17 @@ ssh-add ~/.ssh/id_ed25519
 ```
 *Note replace id_ed25519 if you have generated ssh with different names
 
+
 Open your github account
 >Profile > settings > SSH and GPG keys
 
 Click on New SSH keys
 > add Title > copy paste the key > Add SSH key
+
+To Test your ssh connection
+```
+ssh -T git@github.com
+```
 
 To Add User Name
 
