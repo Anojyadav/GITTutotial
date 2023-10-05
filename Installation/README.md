@@ -37,7 +37,7 @@ To Test your ssh connection
 ssh -T git@github.com
 ```
 
-To Add User Name
+## To Add User Name and email id 
 
 ```
 git config --global user.name "Your Username"
