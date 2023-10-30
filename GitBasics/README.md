@@ -94,7 +94,5 @@ make changes in the file opened in the text editor save and close.
 The git push command is used in Git to send your local branch's commits to a remote repository.
 
 ```
-git push origin/main
+git push origin branch _name
 ```
-
-Note if you using branch, specify branch name instead of 'main'
